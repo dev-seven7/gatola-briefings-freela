@@ -26,6 +26,11 @@ ul{padding-left:20px;margin:6px 0}
 li{margin:3px 0}
 a{color:var(--blue);word-break:break-word}
 .k{color:var(--mute);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.sizes{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:14px 0}
+.size{border:2px solid var(--red);border-radius:12px;padding:12px 14px;background:var(--soft)}
+.size .k{display:block}
+.size b{display:block;font-size:24px;font-weight:800;color:var(--red);margin:2px 0}
+.size small{color:var(--mute)}
 nav a{display:inline-block;margin:4px 8px 4px 0;font-size:14px}
 </style>
 </head>
@@ -95,6 +100,11 @@ nav a{display:inline-block;margin:4px 8px 4px 0;font-size:14px}
 <section class="card" id="banner">
 <h2>📣 3. Banner dos canais de delivery</h2>
 <p><b>1 variação de copy</b>, adaptada nos formatos de cada canal: <b>iFood, site próprio (Accon) e 99Food</b>.</p>
+<div class="sizes">
+<div class="size"><span class="k">Site próprio (Accon)</span><b>1600 x 800 px</b><small>banner</small></div>
+<div class="size"><span class="k">99Food</span><b>600 x 600 px</b><small>foto</small></div>
+<div class="size"><span class="k">iFood</span><b>300 x 300 px</b><small>foto</small></div>
+</div>
 <div class="copy">O segredo saiu da Cartola.<br><span style="font-weight:500">Combos especiais mais uma caixa interativa pra colorir. Peça agora e solte a imaginação.</span></div>
 <ul>
 <li>Combo completo (1 pizza grande salgada + 1 pizza média doce) e a caixa interativa, aberta ou em perspectiva.</li>
